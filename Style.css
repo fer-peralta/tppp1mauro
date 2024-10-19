@@ -1,0 +1,284 @@
+* {
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/*---------------------menu ---------------------------------*/
+.menu {
+    display: inline-flex;
+}
+
+/*li {
+         margin-right: 25px;
+    }*/
+
+div ul {
+    background-color: black;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header div ul li a {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+
+header div ul li a:hover {
+    color: rgb(80, 192, 229);
+}
+
+/* header div ul li a:not(:hover) {
+    color: rgb(153, 122, 41);
+} */
+
+
+/*---------------------BODY ----------Titulo-----------------------*/
+
+h1 a {
+    font-size: 75px;
+}
+
+h1 {
+    background-image: url(./img-banner4.jpg);
+    /*background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-position: right left;
+    background-repeat: no-repeat;
+    /*background-position: center; /* Para centrar la imagen */
+    /*height: 200px; /* Para que ocupe toda la altura de la ventana */
+    /*margin: 0;*/
+    text-align: center;
+    /*margin-top: 35px;
+        margin-bottom: 35px;*/
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+/*---------------------BODY ---------- Portada -----------------------*/
+
+.index-main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fotos {
+    width: 700px;
+    height: 450px;
+    margin: 20px;
+
+}
+
+.fotoDelMedio {
+    width: 700px;
+    height: 450px;
+    text-align: right;
+    margin: 20px;
+    object-fit: cover;
+}
+
+section div {
+    /* display: inline-flex; */
+    display: flex;
+}
+
+.fotos-index {
+    flex: 1;
+}
+
+section div p {
+    flex: 1;
+    /* width: 700px; */
+    height: 450px;
+    margin: 20px;
+    font-size: 28px;
+    /* agregado */
+    text-align: justify;
+}
+
+
+/*---------------------BODY ---------- Footer -----------------------*/
+
+/* para que el footer se vea abajo */
+.main-contacto {
+    min-height: 86vh;
+}
+
+footer div p {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.redes {
+    display: inline-flex;
+}
+
+footer div ul {
+    text-align: center;
+}
+
+/* agregado */
+li.redes {
+    background-color: black;
+}
+
+/* agregado */
+li.redes a {
+    background-color: black;
+}
+
+/* agregado */
+li.redes i {
+    background-color: black;
+    color: white
+}
+
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+/*---------------------PAGINA DE CONTACTO-----------------------*/
+
+
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*background-image: url(./background\ img45.jpg);
+            background-repeat:no-repeat;*/
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    margin-bottom: 20px;
+    border-color: black;
+    border-width: 3px;
+    /*border-radius: 30px;*/
+
+    /*border-bottom: 10px;
+            width: 1400px;
+            border-width: 30px;*/
+    background-color: white;
+
+    background-image: url(./background\ img45.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+legend {
+    font-size: 40px;
+    text-align: center;
+    /*background-color: black;
+            color: white;
+            font-weight: bold; */
+}
+
+label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    margin-top: 8px;
+    /* agregado */
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+/* agregado */
+.botones-form-contacto {
+    display: flex;
+    width: 50%;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.botones-form-contacto input:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.botones-form-contacto input:nth-child(2) {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+label {
+    background-color: transparent;
+}
+
+/* CASACAS */
+
+/* Para que el footer se quede abajo siempre */
+.main-casacas {
+    min-height: 89.7vh;
+}
+
+#lista-de-casacas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+
+.contenedor-camiseta {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    max-width: 90vw;
+    max-height: 80vw;
+}
+
+.contenedor-camiseta img {
+    height: 80%;
+    max-height: 80vw;
+    max-width: 60vw;
+    transition: transform 0.6s, filter 0.6s;
+}
+
+.contenedor-camiseta img:hover {
+    transform: scale(1.02);
+    filter: contrast(120%);
+}
+
+.contenedor-camiseta h3 {
+    font-size: medium;
+}
+
+#confirmarCompra {
+    display: block;
+    margin: auto;
+    height: 5vh;
+    width: 8vw;
+}

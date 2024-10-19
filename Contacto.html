@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Style.css" />
+  <!-- agregado -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <script defer src="./scripts/index.js"></script>
+  <title>Siempre Argentina</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <ul>
+        <li class="menu">
+          <a href="./index.html">Inicio </a>
+        </li>
+        <li class="menu">
+          <a href="./Casacas.html">Casacas </a>
+        </li>
+        <li class="menu"><a href="./Contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main-contacto">
+    <form action="">
+
+      <fieldset>
+        <legend>Contacto</legend>
+
+        <label for="Nombre:">Nombre</label>
+        <input type="text" id="Nombre" placeholder="Nombre de pila" />
+
+        <label for="Correo:">Correo</label>
+        <input type="email" id="Nombre" placeholder="Correo solo @Gmail" />
+
+        <label for="Motivo del contacto:">Motivo del contacto</label>
+        <select name="Motivo" id="Motivo">
+          <option value="Compra">Compras</option>
+          <option value="Compra">Cambios</option>
+          <option value="Reclamo">Reclamos</option>
+        </select>
+
+        <label for="Ubicacion:">Ubicacion</label>
+        <select name="Ubicacion" id="Ubicacion">
+          <option value="CABA">CABA</option>
+          <option value="GBA Sur">GBA Sur</option>
+          <option value="GBA Norte">GBA Norte</option>
+          <option value="Gran Buenos Aires">Gran Buenos Aires</option>
+          <option value="Resto del Pais">Resto del Pais</option>
+        </select>
+
+        <label for="Consulta">Detalle su consulta</label>
+        <textarea name="" id="Consulta" cols="30" rows="10"
+          placeholder="Nunca brindes datos de tus tarjetas"></textarea>
+
+        <div class="botones-form-contacto">
+          <input id="enviar-contacto" class="BotonesConsulta" type="submit" value="Enviar"
+            aria-roledescription="de 24 a 48 hs" />
+
+          <!--generar condicion que genere un msj que indique que la respuesta tarda 
+                  de 24 a 48hs y que luego al aceptarlo en tenvie al inicio -->
+
+          <input class="BotonesConsulta" type="reset" value="Limpiar" />
+        </div>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <div>
+      <p>Seguinos en nuestras Redes</p>
+      <ul>
+        <!-- agregado -->
+        <li class="redes">
+          <a href="https://www.facebook.com">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i></a>&nbsp;
+        </li>
+        <li class="redes">
+          <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;
+        </li>
+        <li class="redes">
+          <a href="https://www.x.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <!-- <li class="redes">
+          <a href="https://www.facebook.com">
+            <img class="logos" src="./Img y texto index/Redes/Face.jpg" alt="Facebook.com" /></a>
+        </li>
+        <li class="redes">
+          <a href="https://www.instagram.com"><img class="logos" src="./Img y texto index/Redes/Insta.jpg"
+              alt="instagram.com" /></a>
+        </li>
+        <li class="redes">
+          <a href="https://www.x.com"><img class="logos" src="./Img y texto index/Redes/X.jpg" alt="x.com" /></a>
+        </li> -->
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
